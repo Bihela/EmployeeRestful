@@ -1,5 +1,7 @@
-﻿using EmployeeManagement.Models;
-using Microsoft.AspNetCore.Components;
+﻿using Microsoft.AspNetCore.Components;
+using EmployeeManagement.Models;
+using System;
+using System.Collections.Generic;
 
 namespace EmployeeManagement.Web.Components.Pages
 {
@@ -7,16 +9,69 @@ namespace EmployeeManagement.Web.Components.Pages
 	{
 		public IEnumerable<Employee> Employees { get; set; }
 
-	}
-	private void LoadEmployees()
-	{
-		Employee e1 = new Employee
+		protected override async Task OnInitializedAsync()
 		{
-			EmployeeId = 1,
-			FirstName = "John",
-			LastName = "Hastings",
-			Email = "David@inteprid.com",
-			DateOfBirth = new DateTime(1980, 10 ,5),
-			Gender = Gender.Male,
-			Department = New Department { DepartmentId = 1, },
+			await Task.Run(LoadEmployees);
+
+		}
+
+		protected override void OnInitialized()
+		{
+			LoadEmployees();
+		}
+
+		private void LoadEmployees()
+		{
+			System.Threading.Thread.Sleep(3000);
+			Employee e1 = new Employee
+			{
+				EmployeeId = 1,
+				FirstName = "John",
+				LastName = "Hastings",
+				Email = "David@inteprid.com",
+				DateOfBirth = new DateTime(1980, 10, 5),
+				Gender = Gender.Male,
+				Department = new Department { DepartmentId = 1, DepartmentName = 1 },
+				PhotoPath = "images/john.jpg"
+			};
+
+			Employee e2 = new Employee
+			{
+				EmployeeId = 2,
+				FirstName = "Alice",
+				LastName = "Smith",
+				Email = "alice@example.com",
+				DateOfBirth = new DateTime(1990, 5, 15),
+				Gender = Gender.Female,
+				Department = new Department { DepartmentId = 2, DepartmentName = 2 },
+				PhotoPath = "images/alice.jpg"
+			};
+
+			Employee e3 = new Employee
+			{
+				EmployeeId = 3,
+				FirstName = "Bob",
+				LastName = "Johnson",
+				Email = "bob@example.com",
+				DateOfBirth = new DateTime(1985, 8, 25),
+				Gender = Gender.Male,
+				Department = new Department { DepartmentId = 3, DepartmentName = 3 },
+				PhotoPath = "images/bob.jpg"
+			};
+
+			Employee e4 = new Employee
+			{
+				EmployeeId = 4,
+				FirstName = "Emily",
+				LastName = "Davis",
+				Email = "emily@example.com",
+				DateOfBirth = new DateTime(1995, 12, 10),
+				Gender = Gender.Female,
+				Department = new Department { DepartmentId = 4, DepartmentName = 4 },
+				PhotoPath = "images/emily.jpg"
+			};
+
+			Employees = new List<Employee> { e1, e2, e3, e4 };
+		}
+	}
 }
