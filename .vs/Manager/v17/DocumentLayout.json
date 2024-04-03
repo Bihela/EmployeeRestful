@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D35BD728-95F6-4353-A2B7-0312FB0156FD}|EmployeeManagement.Web\\EmployeeManagement.Web.csproj|c:\\users\\bihela.wanasekara\\documents\\testing\\emplyeemanagement\\manager\\employeemanagement.web\\components\\pages\\employeelistbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35BD728-95F6-4353-A2B7-0312FB0156FD}|EmployeeManagement.Web\\EmployeeManagement.Web.csproj|solutionrelative:employeemanagement.web\\components\\pages\\employeelistbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A7BC2D-156B-4A73-8A3C-5E72DAF55F22}|EmployeeManagement.Models\\EmployeeManagement.Models.csproj|c:\\users\\bihela.wanasekara\\documents\\testing\\emplyeemanagement\\manager\\employeemanagement.models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A7BC2D-156B-4A73-8A3C-5E72DAF55F22}|EmployeeManagement.Models\\EmployeeManagement.Models.csproj|solutionrelative:employeemanagement.models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35BD728-95F6-4353-A2B7-0312FB0156FD}|EmployeeManagement.Web\\EmployeeManagement.Web.csproj|c:\\users\\bihela.wanasekara\\documents\\testing\\emplyeemanagement\\manager\\employeemanagement.web\\employeemanagement.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D35BD728-95F6-4353-A2B7-0312FB0156FD}|EmployeeManagement.Web\\EmployeeManagement.Web.csproj|solutionrelative:employeemanagement.web\\employeemanagement.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D35BD728-95F6-4353-A2B7-0312FB0156FD}|EmployeeManagement.Web\\EmployeeManagement.Web.csproj|c:\\users\\bihela.wanasekara\\documents\\testing\\emplyeemanagement\\manager\\employeemanagement.web\\components\\pages\\employeelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D35BD728-95F6-4353-A2B7-0312FB0156FD}|EmployeeManagement.Web\\EmployeeManagement.Web.csproj|solutionrelative:employeemanagement.web\\components\\pages\\employeelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{D35BD728-95F6-4353-A2B7-0312FB0156FD}|EmployeeManagement.Web\\EmployeeManagement.Web.csproj|solutionrelative:employeemanagement.web\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D35BD728-95F6-4353-A2B7-0312FB0156FD}|EmployeeManagement.Web\\EmployeeManagement.Web.csproj|c:\\users\\bihela.wanasekara\\documents\\testing\\emplyeemanagement\\manager\\employeemanagement.web\\components\\pages\\employeelistbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D35BD728-95F6-4353-A2B7-0312FB0156FD}|EmployeeManagement.Web\\EmployeeManagement.Web.csproj|solutionrelative:employeemanagement.web\\components\\pages\\employeelistbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{85A7BC2D-156B-4A73-8A3C-5E72DAF55F22}|EmployeeManagement.Models\\EmployeeManagement.Models.csproj|c:\\users\\bihela.wanasekara\\documents\\testing\\emplyeemanagement\\manager\\employeemanagement.models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85A7BC2D-156B-4A73-8A3C-5E72DAF55F22}|EmployeeManagement.Models\\EmployeeManagement.Models.csproj|solutionrelative:employeemanagement.models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D35BD728-95F6-4353-A2B7-0312FB0156FD}|EmployeeManagement.Web\\EmployeeManagement.Web.csproj|c:\\users\\bihela.wanasekara\\documents\\testing\\emplyeemanagement\\manager\\employeemanagement.web\\employeemanagement.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D35BD728-95F6-4353-A2B7-0312FB0156FD}|EmployeeManagement.Web\\EmployeeManagement.Web.csproj|solutionrelative:employeemanagement.web\\employeemanagement.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D35BD728-95F6-4353-A2B7-0312FB0156FD}|EmployeeManagement.Web\\EmployeeManagement.Web.csproj|c:\\users\\bihela.wanasekara\\documents\\testing\\emplyeemanagement\\manager\\employeemanagement.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -43,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{D35BD728-95F6-4353-A2B7-0312FB0156FD}|EmployeeManagement.Web\\EmployeeManagement.Web.csproj|solutionrelative:employeemanagement.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85A7BC2D-156B-4A73-8A3C-5E72DAF55F22}|EmployeeManagement.Models\\EmployeeManagement.Models.csproj|c:\\users\\bihela.wanasekara\\documents\\testing\\emplyeemanagement\\manager\\employeemanagement.models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85A7BC2D-156B-4A73-8A3C-5E72DAF55F22}|EmployeeManagement.Models\\EmployeeManagement.Models.csproj|solutionrelative:employeemanagement.models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{85A7BC2D-156B-4A73-8A3C-5E72DAF55F22}|EmployeeManagement.Models\\EmployeeManagement.Models.csproj|c:\\users\\bihela.wanasekara\\documents\\testing\\emplyeemanagement\\manager\\employeemanagement.models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85A7BC2D-156B-4A73-8A3C-5E72DAF55F22}|EmployeeManagement.Models\\EmployeeManagement.Models.csproj|solutionrelative:employeemanagement.models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -62,20 +62,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\wwwroot\\app.css",
-              "RelativeDocumentMoniker": "EmployeeManagement.Web\\wwwroot\\app.css",
-              "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\wwwroot\\app.css",
-              "RelativeToolTip": "EmployeeManagement.Web\\wwwroot\\app.css",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAEoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-03T03:38:41.879Z",
+              "DocumentIndex": 2,
+              "Title": "EmployeeManagement.Web.csproj",
+              "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
+              "RelativeDocumentMoniker": "EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
+              "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
+              "RelativeToolTip": "EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-03T04:05:51.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Models\\Department.cs",
               "RelativeDocumentMoniker": "EmployeeManagement.Models\\Department.cs",
@@ -83,51 +83,49 @@
               "RelativeToolTip": "EmployeeManagement.Models\\Department.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T08:55:46.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T08:55:46.327Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EmployeeList.razor",
-              "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\Components\\Pages\\EmployeeList.razor",
-              "RelativeDocumentMoniker": "EmployeeManagement.Web\\Components\\Pages\\EmployeeList.razor",
-              "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\Components\\Pages\\EmployeeList.razor",
-              "RelativeToolTip": "EmployeeManagement.Web\\Components\\Pages\\EmployeeList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T09:18:20.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "EmployeeListBase.cs",
               "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\Components\\Pages\\EmployeeListBase.cs",
               "RelativeDocumentMoniker": "EmployeeManagement.Web\\Components\\Pages\\EmployeeListBase.cs",
               "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\Components\\Pages\\EmployeeListBase.cs",
               "RelativeToolTip": "EmployeeManagement.Web\\Components\\Pages\\EmployeeListBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAATAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAwDMAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T02:48:55.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployeeManagement.Web",
-              "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
-              "RelativeDocumentMoniker": "EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
-              "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
-              "RelativeToolTip": "EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-03T04:05:51.98Z",
+              "DocumentIndex": 3,
+              "Title": "EmployeeList.razor",
+              "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\Components\\Pages\\EmployeeList.razor",
+              "RelativeDocumentMoniker": "EmployeeManagement.Web\\Components\\Pages\\EmployeeList.razor",
+              "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\Components\\Pages\\EmployeeList.razor",
+              "RelativeToolTip": "EmployeeManagement.Web\\Components\\Pages\\EmployeeList.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-02T09:18:20.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "EmployeeManagement.Web\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\wwwroot\\app.css",
+              "RelativeToolTip": "EmployeeManagement.Web\\wwwroot\\app.css",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-03T03:38:41.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "EmployeeManagement.Web\\Components\\Pages\\Home.razor",
@@ -135,12 +133,11 @@
               "RelativeToolTip": "EmployeeManagement.Web\\Components\\Pages\\Home.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T02:40:53.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-03T02:40:53.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "EmployeeManagement.Web\\Components\\Layout\\MainLayout.razor",
@@ -148,12 +145,11 @@
               "RelativeToolTip": "EmployeeManagement.Web\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T09:38:54.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T09:38:54.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "EmployeeManagement.Web\\Components\\Layout\\NavMenu.razor",
@@ -161,12 +157,11 @@
               "RelativeToolTip": "EmployeeManagement.Web\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T09:38:07.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T09:38:07.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Error.razor",
               "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\Components\\Pages\\Error.razor",
               "RelativeDocumentMoniker": "EmployeeManagement.Web\\Components\\Pages\\Error.razor",
@@ -174,12 +169,24 @@
               "RelativeToolTip": "EmployeeManagement.Web\\Components\\Pages\\Error.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T03:01:58.423Z",
+              "WhenOpened": "2024-04-03T03:01:58.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Models\\Employee.cs",
+              "RelativeToolTip": "EmployeeManagement.Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T08:59:46.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Web\\Program.cs",
               "RelativeDocumentMoniker": "EmployeeManagement.Web\\Program.cs",
@@ -187,20 +194,7 @@
               "RelativeToolTip": "EmployeeManagement.Web\\Program.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAkwCoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:08:53.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Models\\Employee.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement.Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Manager\\EmployeeManagement.Models\\Employee.cs",
-              "RelativeToolTip": "EmployeeManagement.Models\\Employee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T08:59:46.587Z"
+              "WhenOpened": "2024-04-02T09:08:53.567Z"
             },
             {
               "$type": "Document",
