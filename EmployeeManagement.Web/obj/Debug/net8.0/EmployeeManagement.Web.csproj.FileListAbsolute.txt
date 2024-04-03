@@ -31,3 +31,4 @@ C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Manager\EmployeeM
 C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Manager\EmployeeManagement.Web\obj\Debug\net8.0\EmployeeManagement.Web.pdb
 C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Manager\EmployeeManagement.Web\obj\Debug\net8.0\EmployeeManagement.Web.genruntimeconfig.cache
 C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Manager\EmployeeManagement.Web\obj\Debug\net8.0\ref\EmployeeManagement.Web.dll
+C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Manager\EmployeeManagement.Web\obj\Debug\net8.0\EmployeeManagement.Web.sourcelink.json
