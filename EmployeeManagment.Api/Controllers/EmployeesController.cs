@@ -3,6 +3,8 @@ using EmployeeManagment.Api.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace EmployeeManagment.Api.Controllers
@@ -16,6 +18,26 @@ namespace EmployeeManagment.Api.Controllers
 		public EmployeesController(IEmployeeRepository employeeRepository)
 		{
 			this.employeeRepository = employeeRepository;
+		}
+
+		[HttpGet("Search")]
+		public async Task<ActionResult<IEnumerable<Employee>>> Search(string name, Gender? gender)
+		{
+			try
+			{
+				var result = await employeeRepository.Search(name, gender);
+
+				if (result.Any())
+				{
+					return Ok(result);
+				}
+
+				return NotFound();
+			}
+			catch (Exception ex)
+			{
+				return StatusCode(StatusCodes.Status500InternalServerError, "Error retrieving data from the database");
+			}
 		}
 
 		[HttpGet]
@@ -73,10 +95,10 @@ namespace EmployeeManagment.Api.Controllers
 			}
 			catch (Exception ex)
 			{
-
 				return StatusCode(StatusCodes.Status500InternalServerError, "Error creating employee");
 			}
 		}
+
 		[HttpPut("{id:int}")]
 		public async Task<ActionResult<Employee>> UpdateEmployee(int id, Employee employee)
 		{
@@ -100,21 +122,23 @@ namespace EmployeeManagment.Api.Controllers
 				return StatusCode(StatusCodes.Status500InternalServerError, "Error updating employee");
 			}
 		}
+
 		[HttpDelete("{id:int}")]
 		public async Task<ActionResult<Employee>> DeleteEmployee(int id)
 		{
 			try
 			{
 				var employeeToDelete = await employeeRepository.DeleteEmployee(id);
+				if (employeeToDelete == null)
+				{
+					return NotFound($"Employee with Id = {id} not found");
+				}
+				return employeeToDelete;
 			}
 			catch (Exception ex)
 			{
-
 				return StatusCode(StatusCodes.Status500InternalServerError, "Error deleting employee");
 			}
-
-			return await employeeRepository.DeleteEmployee(id);
 		}
-
 	}
 }
