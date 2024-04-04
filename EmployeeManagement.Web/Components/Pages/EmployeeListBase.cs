@@ -31,7 +31,7 @@ namespace EmployeeManagement.Web.Components.Pages
 				Email = "David@inteprid.com",
 				DateOfBirth = new DateTime(1980, 10, 5),
 				Gender = Gender.Male,
-				Department = new Department { DepartmentId = 1, DepartmentName = 1 },
+				DepartmentId = 1,
 				PhotoPath = "images/john.jpg"
 			};
 
@@ -43,7 +43,7 @@ namespace EmployeeManagement.Web.Components.Pages
 				Email = "alice@example.com",
 				DateOfBirth = new DateTime(1990, 5, 15),
 				Gender = Gender.Female,
-				Department = new Department { DepartmentId = 2, DepartmentName = 2 },
+				DepartmentId = 2,
 				PhotoPath = "images/alice.jpg"
 			};
 
@@ -55,7 +55,7 @@ namespace EmployeeManagement.Web.Components.Pages
 				Email = "bob@example.com",
 				DateOfBirth = new DateTime(1985, 8, 25),
 				Gender = Gender.Male,
-				Department = new Department { DepartmentId = 3, DepartmentName = 3 },
+				DepartmentId = 3,
 				PhotoPath = "images/bob.jpg"
 			};
 
@@ -67,7 +67,7 @@ namespace EmployeeManagement.Web.Components.Pages
 				Email = "emily@example.com",
 				DateOfBirth = new DateTime(1995, 12, 10),
 				Gender = Gender.Female,
-				Department = new Department { DepartmentId = 4, DepartmentName = 4 },
+				DepartmentId = 4,
 				PhotoPath = "images/emily.jpg"
 			};
 
