@@ -23,14 +23,17 @@ namespace EmployeeManagment.Api.Models
 			return result.Entity;
 		}
 
-		public async Task DeleteEmployee(int employeeId)
+		public async Task<Employee> DeleteEmployee(int employeeId)
 		{
 			var employee = await _appDbContext.Employees.FirstOrDefaultAsync(e => e.EmployeeId == employeeId);
 			if (employee != null)
 			{
 				_appDbContext.Employees.Remove(employee);
 				await _appDbContext.SaveChangesAsync();
+				return employee;
 			}
+
+			return null;
 		}
 
 		public async Task<Employee> GetEmployee(int employeeId)
