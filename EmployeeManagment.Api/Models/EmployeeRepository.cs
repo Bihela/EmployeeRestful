@@ -1,5 +1,6 @@
 ﻿using EmployeeManagement.Models;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -35,6 +36,11 @@ namespace EmployeeManagment.Api.Models
 		public async Task<Employee> GetEmployee(int employeeId)
 		{
 			return await _appDbContext.Employees.FirstOrDefaultAsync(e => e.EmployeeId == employeeId);
+		}
+
+		public async Task<Employee> GetEmployeeByEmail(string email)
+		{
+			return await _appDbContext.Employees.FirstOrDefaultAsync(e => e.Email == email);
 		}
 
 		public async Task<IEnumerable<Employee>> GetEmployees()

@@ -1,7 +1,9 @@
 ﻿using EmployeeManagement.Models;
 using EmployeeManagment.Api.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Identity.Client;
+using Microsoft.AspNetCore.Http;
+using System;
+using System.Threading.Tasks;
 
 namespace EmployeeManagment.Api.Controllers
 {
@@ -23,10 +25,9 @@ namespace EmployeeManagment.Api.Controllers
 			{
 				return Ok(await employeeRepository.GetEmployees());
 			}
-			catch (Exception)
+			catch (Exception ex)
 			{
-				return StatusCode(StatusCodes.Status500InternalServerError,
-					"Error retrieving data from the database");
+				return StatusCode(StatusCodes.Status500InternalServerError, "Error retrieving data from the database");
 			}
 		}
 
@@ -42,10 +43,39 @@ namespace EmployeeManagment.Api.Controllers
 				}
 				return Ok(result);
 			}
-			catch (Exception)
+			catch (Exception ex)
 			{
-				return StatusCode(StatusCodes.Status500InternalServerError,
-					"Error retrieving data from the database");
+				return StatusCode(StatusCodes.Status500InternalServerError, "Error retrieving data from the database");
+			}
+		}
+
+		[HttpPost]
+		public async Task<ActionResult<Employee>> CreateEmployee(Employee employee)
+		{
+			try
+			{
+				if (employee == null)
+				{
+					return BadRequest("Employee object is null");
+				}
+
+				var emp = await employeeRepository.GetEmployeeByEmail(employee.Email);
+
+				if (emp != null)
+				{
+					ModelState.AddModelError("email", "Employee email already in use");
+					return BadRequest(ModelState);
+				}
+
+				var createdEmployee = await employeeRepository.AddEmployee(employee);
+
+				return CreatedAtAction(nameof(GetEmployee), new { id = createdEmployee.EmployeeId }, createdEmployee);
+			}
+			catch (Exception ex)
+			{
+				// Log the exception
+				// logger.LogError(ex, "Error creating employee");
+				return StatusCode(StatusCodes.Status500InternalServerError, "Error creating employee");
 			}
 		}
 	}
