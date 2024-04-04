@@ -73,10 +73,33 @@ namespace EmployeeManagment.Api.Controllers
 			}
 			catch (Exception ex)
 			{
-				// Log the exception
-				// logger.LogError(ex, "Error creating employee");
+
 				return StatusCode(StatusCodes.Status500InternalServerError, "Error creating employee");
 			}
 		}
+		[HttpPut("{id:int}")]
+		public async Task<ActionResult<Employee>> UpdateEmployee(int id, Employee employee)
+		{
+			try
+			{
+				if (id != employee.EmployeeId)
+				{
+					return BadRequest("Employee ID mismatch");
+				}
+				var employeeToUpdate = await employeeRepository.GetEmployee(id);
+
+				if (employeeToUpdate == null)
+				{
+					return NotFound($"Employee with Id = {id} not found");
+				}
+
+				return await employeeRepository.UpdateEmployee(employee);
+			}
+			catch (Exception ex)
+			{
+				return StatusCode(StatusCodes.Status500InternalServerError, "Error updating employee");
+			}
+		}
+
 	}
 }
